@@ -32,6 +32,6 @@ jobs:
         with:
           name: Maven-Reports
           path: |
-            descuentosTDD/target/site/jacoco/jacoco.xml
-            descuentosTDD/target/checkstyle-result.xml
-            descuentosTDD/target/pmd.xml
+            /target/site/jacoco/jacoco.xml
+            /target/checkstyle-result.xml
+            /target/pmd.xml
