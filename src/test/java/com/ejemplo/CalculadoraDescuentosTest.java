@@ -20,7 +20,13 @@ public class CalculadoraDescuentosTest {
     }
 
     @Test
-    public void testDescuentoPorcentaje50(){
+    public void testDescuentoPorcentaje50() {
         assertEquals(50, CalculadoraDescuentos.aplicarDescuentoPorcentaje(100.0, 50.0));
+    }
+
+    @Test
+    public void testConstructor() {
+        CalculadoraDescuentos calc = new CalculadoraDescuentos();
+        assertNotNull(calc);
     }
 }
