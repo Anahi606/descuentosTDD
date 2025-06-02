@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu.universidad</groupId>
-  <artifactId>biblioteca-universitaria</artifactId>
+  <artifactId>descuentosTDD</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
