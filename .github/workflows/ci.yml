@@ -31,7 +31,7 @@ jobs:
         run: mvn pmd:check
         continue-on-error: true
 
-      - name: Generate Coverage Report
+      - name: Jacoco >:)
         run: mvn jacoco:report
 
       - name: Upload artifacts
